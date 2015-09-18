@@ -1,0 +1,31 @@
+/* =========================================================================
+
+    Project: test
+    Author: XHTMLized
+    Last updated: @@timestamp
+@@toc
+
+   ========================================================================= */
+
+// Vendor Dependencies
+@import "normalize.css/normalize";
+
+// Authored Dependencies
+@import "setup/variables";
+@import "setup/mixins";
+
+
+
+// Common styles & layouts
+@import "common/base";
+@import "common/utilities";
+@import "common/layout";
+
+// Components
+@import "components/newsarea";
+@import "components/slidebar";
+@import "components/showpage";
+
+
+@import "vendor/colorbox";
+

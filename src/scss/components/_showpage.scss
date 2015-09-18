@@ -1,0 +1,49 @@
+#showpage {
+    display:inline;
+    float:left;
+    color:green;
+    #bigimg {
+        width:600px;
+        height:400px;
+    }
+    #cbslider {
+        #bgr {
+            margin-top:20px;
+            background-color:#c9bba9;
+            border-radius:15px;
+            width:600px;
+            height:170px;
+            z-index:1;
+            #slides {
+                margin-left:30px;
+                .slide {
+                    border-radius:15px;
+                    z-index:2;
+                    width:160px;
+                    height:130px;
+                    display:inline;
+                    float:left;
+                    margin: 20px 10px 0 10px;
+                }
+            }
+        }
+        #pre {
+            float:left;
+            margin-left:-20px;
+        }
+        #next {
+            float:right;
+            margin-right:30px;
+        }
+        #pre, 
+		#next {
+            display:inline;
+            margin-top:-115px;
+            background-color:#f32363;
+            border-radius:15px;
+            width:40px;
+            height:55px;
+            z-index:3;
+        }
+    }
+}
